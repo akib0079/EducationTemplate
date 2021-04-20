@@ -1,0 +1,914 @@
+/* Font link */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+/* Custom World CSS */
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Open Sans', sans-serif !important;
+}
+p{
+    font-family: 'Open Sans', sans-serif !important;
+}
+a{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* nav bar css */
+
+.navbar{
+    background-color: #018BFA !important;
+}
+.logo {
+    width: 40%;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin: 0px 0px 0px 0px;
+    width: 34%;
+}
+
+.nav1 {
+    color: white !important;
+    font-size: 14px;
+    padding: 12px 20px !important;
+}
+.nav1:hover {
+    color: black !important;
+    font-size: 14px;
+    transition: 0.6s;
+}
+.logIn {
+    color: #018BFA !important;
+    background: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 8px 25px !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logIn:hover {
+    color: white !important;
+    background: transparent;
+    transition: 1s;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 8px 25px !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* nav finish */
+
+/* banner start */
+
+.banner{
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(top,rgba(63,193,247,1) 0%,rgba(51,135,188,1) 100%);
+    background: linear-gradient(to bottom,#018BFA 40%,  #04EFC7 80% , rgb(9, 252, 159) 100%);
+    padding: 0px 0px 250px 0px;
+}
+.header h1 {
+    margin-top: 175px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 38px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.header p{
+    font-size: 17px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: white;
+}
+    
+.img {
+    background: white;
+    padding: 13px 0px 0px 0px;
+    height: 77px;
+    margin: 10px 0px;
+    overflow: hidden;
+    border: 1px solid wh;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.mobile_container{
+    display: none;
+}
+.img:hover {
+    background: #F9CDAB;
+    transition: 0.6s;
+    padding: 13px 0px 0px 0px;
+    height: 77px;
+    margin: 10px 0px;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.486);
+}
+.img_text {
+    font-size: 16px;
+    margin: -5px 0px 20px 0px;
+}
+.img-sub {
+    width: 26%;
+    float: right;
+    margin: -47px 5px 0px 0px;
+}
+.allsub {
+    margin: 0px -115px;
+}
+.img_text1 {
+    font-size: 16px;
+    margin: 5px 0px 37px 0px;
+}
+.blub {
+    width: 19%;
+    float: right;
+    margin: -47px 5px 0px 0px;
+}
+.mouse {
+    width: 25%;
+    float: right;
+    margin: -39px -7px 0px 0px;
+}
+.divide-img{
+    width: 100%;
+}
+.divide {
+    background-image: url(img/divider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0px 0px 0px;
+    margin: -130px 0px 0px 0px;
+}
+
+/* Banner Section END */
+
+/* Img class start */
+
+.secImg {
+    margin: -115px 20px 0px 20px;
+}
+
+/* Service Section Start */
+
+.services{
+    background-image: url(img/bg-services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.serviceHeader{
+  padding: 70px 0px 0px 0px;
+}
+.serviceHeader h1 {
+    border-bottom: 5px solid #F7B381;
+    margin: 10px 359px 20px;
+    font-family: 'Rubik' !important;
+    font-weight: 700;
+}
+.serviceHeader p{
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Rubik' !important;
+}
+.services1 {
+    background: white;
+    margin: 110px 15px -25px 15px;
+    box-shadow: 20px 45px 45px 25px #EFEFEF;
+    padding: 0px 30px 0px 30px;
+}
+.serviceImg1 {
+    margin: 0px 0px -35px 0px;
+}
+.arrow{
+    margin: 0px 0px 0px -35px;
+}
+.servicesP{
+    font-size: 16px;
+    font-family: 'Rubik' !important;
+}
+.service{
+    margin: 30px 0px 0px 0px;
+}
+.servicesP span {
+    background-color: #FEEADA;
+    color: black;
+    padding: 3px 7px;
+}
+.link:hover {
+    font-size: 20px;
+    line-height: 26px;
+    color: #23B1EC;
+    font-weight: 600;
+    text-decoration: underline;
+}
+/* Services End */
+
+/* Working Section Start */
+
+.planP {
+    font-size: 25px;
+    line-height: 46px;
+    margin: -60px 0px 0px 0px;
+}
+.work-section {
+    background: linear-gradient(to bottom,#1CAFEC 0%,rgba(255,255,255,0) 100%);
+    margin: 110px 0px 0px 0px;
+}
+
+.icn {
+    font-size: 70px;
+    color: #C0E9FA;
+    margin: 85px 0px 0px 0px;
+}
+.work{
+   margin: 270px 0px 0px 0px;
+}
+.side1{
+  display: block;
+}
+.side1 h2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 30px;
+    font-family: 'Rubik' !important;
+    color: #3A3A3A;
+}
+
+.side1 h2 span{
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family: 'Rubik' !important;
+    color: #3A3A3A;
+    margin-top: 15px;
+}
+.side1 p {
+    font-size: 19px;
+    line-height: 26px;
+    color: #545B5E;
+    font-weight: 500;
+}
+.img1{
+  width: 100%;
+}
+.link {
+    font-size: 20px;
+    line-height: 26px;
+    color: #23B1EC;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.imgCol1{
+       margin-left: 90px;
+}
+.imgCol1 img{
+    width: 176px;
+    margin-right: 20px;
+}
+.imgCol2 img{
+    width: 176px;
+    margin-right: 20px;
+}
+/* Work section end */
+
+/* Company css Start */
+.company {
+    background-image: url(img/company-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0px 0px 0px;
+    margin-bottom: 60px;
+    margin-top: 170px;
+}
+.img_lap{
+    width: 70%;
+}
+.text {
+    transform: translateZ(0);
+    margin: 25px 0px 0px 0px;
+    font-family: 'Rubik' !important;
+}
+.text h3 {
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.blue-btn{
+    background-color: #011d58;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    min-width: 300px;
+    border-radius: 30px;
+    border: 3px solid #011d58;
+}
+.blue-btn:hover{
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    min-width: 300px;
+    border-radius: 30px;
+    border: 3px solid #011d58;
+}
+
+/* Testimonail Start */
+
+.testimonial{
+   margin: 0px 15px 120px 15px;
+}
+
+.testimonial .testimonial-profile{
+    float:left;
+    width:27%;
+    padding-right:15px;
+}
+.testimonial .testimonial-profile img{
+    width: 80%;
+    height: auto;
+    border-radius:50%;
+    display: inline-block;
+    margin-bottom:10px;
+}
+.testimonial .testimonial-date{
+    display:block;
+    text-align:center;
+    color:#a9a9a9;
+    text-indent: -2px;
+}
+.testimonial .testimonial-title {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 800;
+    margin-top: 0px;
+    font-family: 'Rubik' !important;
+    color: #3A3A3A;
+    margin: 0px 0px -35px 0px;
+}
+.testimonial .testimonial-title a{
+    text-transform: uppercase;
+    color: #d35400;
+    font-size:15px;
+    display: block;
+    margin-bottom:4px;
+}
+.testimonial .testimonial-description {
+    font-size: 16px;
+    padding-left: 0%;
+    line-height: 23px;
+    margin: 95px 50px 0px 0px;
+}
+.owl-pagination {
+    margin-top: -50px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #1CAFEC;
+}
+.title_second {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 800;
+    margin-top: 5px;
+    font-family: 'Rubik' !important;
+    color: #898989;
+}
+.owl-theme .owl-controls .owl-page span {
+    display: block;
+    width: 16px !important;
+    height: 16px !important;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);
+    opacity: .5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #869791;
+}
+.test-header {
+    margin: 70px auto 120px auto;
+    font-size: 27px;
+    font-family: 'Rubik' !important;
+    font-weight: 900;
+    color: #3A3A3A;
+}
+ /* testimonial Sec End  */
+/* //////////////////////////// */
+
+/* college css start */
+
+.college{
+   background-color: #F8F8F8;
+   padding: 140px 0px;
+}
+.college_header h3{
+    margin-bottom: 80px;
+    font-size: 26px;
+    font-family: 'Rubik' !important;
+    font-weight: 800;
+}
+
+.col_img{
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 5px 30px rgba(0,0,0,.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    background-color: #fff;
+    padding: 40px !important;
+}
+
+/* project css start */
+
+.project{
+   margin: 120px 0px;
+}
+
+
+.project_inner h3 {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    color: #3A3A3A;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.project_inner h3 span {
+    font-size: 17px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    color: #3A3A3A;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* project section end */
+
+/* footer section start */
+
+footer{
+    background-color: #f4f4f4;
+    
+}
+.footer1{
+    padding: 50px 0px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.widget-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Rubik' !important;
+}
+.footer-link .btm-links ul li {
+    font-size: 12px;
+    line-height: 28px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+    color: gray;
+    line-height: 28px;
+}
+
+.social {
+    font-size: 14px;
+    background: #1877F2;
+}
+.footer2 {
+    padding: 50px 0px 20px 0px;
+}
+.footer3{
+    background-color: #3A3A3A;
+    padding: 50px 0px 40px 0px;
+}
+
+.footer3-inner a {
+    color: white;
+    font-weight: 400;
+}
+.btn1{
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn1:hover{
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.footerP{
+    color: white;
+    margin-top: 12px;
+}
+/* footer section end */
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+.allsub{
+    display: none;
+}
+.mobile_container {
+    display: block;
+    margin: 0px 0px 0px 0px;
+}
+.col1{
+    width: 40%;
+    display: inline;
+    margin: 0px;
+}
+.col2 {
+    width: 40%;
+    display: inline;
+    margin: 0px;
+}
+.img_text {
+    font-size: 16px;
+    margin: -5px 16px 20px 0px;
+}
+.serviceHeader h1 {
+    border-bottom: 5px solid #F7B381;
+    margin: auto;
+    font-family: 'Rubik' !important;
+    font-weight: 700;
+    font-size: 33px;
+}
+.header h1 {
+    margin-top: 130px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 38px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.header p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 20px 30px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin: 0px 0px 0px 0px;
+    width: 80%;
+}
+.serviceHeader p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Rubik' !important;
+    margin-top: 20px;
+}
+.arrow {
+    margin: 15px 0px 40px -20px;
+    transform: rotate(90deg);
+}
+.serviceImg1 {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+.servicesP {
+    font-size: 14px;
+    font-family: 'Rubik' !important;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.planP {
+    font-size: 19px;
+    line-height: 46px;
+    margin: -346px 40px 0px 40px;
+    font-weight: 600;
+}
+.side1 h2 {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 30px;
+    font-family: 'Rubik' !important;
+    color: #3A3A3A;
+}
+.work {
+    margin: 0px;
+}
+.side1 {
+    display: block;
+    margin: 55px 0px 80px 0px;
+}
+.img1 {
+    width: 100%;
+    margin: 30px 0px;
+}
+.imgCol1 {
+     margin-left: 0px;
+    text-align: center;
+}
+.imgCol2 {
+     margin-left: 0px;
+    text-align: center;
+}
+.text h3 {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.text {
+    transform: translateZ(0);
+    margin: 55px 0px 64px 0px;
+    font-family: 'Rubik' !important;
+}  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.allsub{
+    display: none;
+}
+.mobile_container {
+    display: block;
+    margin: 0px 0px 0px 0px;
+}
+.col1{
+    width: 40%;
+    display: inline;
+    margin: 0px;
+}
+.col2 {
+    width: 40%;
+    display: inline;
+    margin: 0px;
+}
+.img_text {
+    font-size: 16px;
+    margin: -5px 16px 20px 0px;
+}
+.serviceHeader h1 {
+    border-bottom: 5px solid #F7B381;
+    margin: auto;
+    font-family: 'Rubik' !important;
+    font-weight: 700;
+    font-size: 33px;
+}
+.header h1 {
+    margin-top: 130px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 38px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.header p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 20px 30px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin: 0px 0px 0px 0px;
+    width: 80%;
+}
+.serviceHeader p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Rubik' !important;
+    margin-top: 20px;
+}
+.arrow {
+    margin: 15px 0px 40px -20px;
+    transform: rotate(90deg);
+}
+.serviceImg1 {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+.servicesP {
+    font-size: 14px;
+    font-family: 'Rubik' !important;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.planP {
+    font-size: 19px;
+    line-height: 46px;
+    margin: -346px 40px 0px 40px;
+    font-weight: 600;
+}
+.side1 h2 {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 30px;
+    font-family: 'Rubik' !important;
+    color: #3A3A3A;
+}
+.work {
+    margin: 0px;
+}
+.side1 {
+    display: block;
+    margin: 55px 0px 80px 0px;
+}
+.img1 {
+    width: 100%;
+    margin: 30px 0px;
+}
+.imgCol1 {
+     margin-left: 0px;
+    text-align: center;
+}
+.imgCol2 {
+     margin-left: 0px;
+    text-align: center;
+}
+.text h3 {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.text {
+    transform: translateZ(0);
+    margin: 55px 0px 64px 0px;
+    font-family: 'Rubik' !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .testimonial{
+        text-align: center;
+        margin: 0 10px;
+    }
+    .testimonial .testimonial-profile{
+        float:none;
+        width: 30%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .testimonial .testimonial-description{
+        padding-left: 0;
+    }
+}
